@@ -1,0 +1,116 @@
+    #maxbox{
+        float: left;
+        /* padding-left: 60px; */
+        width: 490px;
+        box-sizing: border-box;
+        margin: 200px 550px;
+        }
+    .type-tab{
+        margin-bottom: 12px;
+    }
+    .type-tab span{
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    #maxbox .form .login input{
+        border: 1px solid #DDDDDD;
+        width: 414px;
+        height:40px;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 4px;
+        margin-top: 5px;
+        background-color: #E8F0FE;
+        margin-bottom: 30px;
+        outline: none;
+    }
+    .remember{
+        font-size: 12px;
+        margin:10px 0;
+        color: #717171;
+        width: 410px;
+        display: flex;
+        align-items: center; 
+       }
+    .remembercheck{
+        width:14px;
+        height: 14px;
+        background-size: 14px 14px;
+        margin-right: 8px;
+    }
+    .gou{
+        color: #bbb;
+        margin-left: 10px;
+    }
+    .remember a{
+        text-decoration: none;
+        color: #00a1d6;
+    }
+    .noncheck{
+        margin-right: 10px;
+    }
+    .btn-box{
+        width:414px;
+        height:38px;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .btn-box .btn{
+        color: #555;
+        display: inline-block;
+        height: 36px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        width: 184px;
+        line-height: 38px;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .btn-box .btn-login{
+        border: 1px solid #0381aa;
+        color: #fff;
+        background-color: #00a7de;
+    }
+    .btn-reg{
+        text-decoration: none;
+    }
+    .sns{
+        font-size: 12px;
+        padding:12px 0;
+    }
+    .sns .btn{
+        color: #717171;
+        cursor: pointer;
+    }
+    .weibo::before{
+        content: "";
+        display: inline-block;
+        width: 21px;
+        height: 21px;
+        background: url(./图层\ 2.png);
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    .qq::before{
+        content: "";
+        display: inline-block;
+        width: 21px;
+        height: 21px;
+        background: url(./图层\ 3.png);
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    .qq{
+        margin-left:20px;
+    }
+    .rem{
+        display:inline-block;
+    }
+    .check-reg{
+        margin-left: 40px;
+    }
+    
