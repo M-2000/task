@@ -1,0 +1,115 @@
+body{
+    background-color:#DEDEDE;
+}
+.se p:first-of-type{
+    text-indent: 2em;
+}
+.header{
+    width: 1505px;
+    height: 90px;
+    background-color: #333333;
+    color: #E4E3E1;
+}
+.nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+}
+.nav ul li{
+    margin-left: 20px;
+    list-style-type: none;
+}
+.se{
+    border: 1px solid #E4E3E1;
+    margin-top: 10px;
+    padding: 15px;
+    width: 1050px;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+}
+.picture .pic-text{
+    text-align: center;
+}
+.picture .pic-bor{
+    border: 1px solid #D2D0D1;
+    width:250px;
+    margin-bottom: 20px;
+}
+.picture .pic-bor img{
+    width:200px;
+    margin-bottom: 5px;
+}
+.picture .a .pic-bor{
+    display: inline-block;
+    margin-left: 5px;
+}
+.picture .b .pic-bor{
+    display: inline-block;
+    margin-left: 5px;
+}
+.side{
+    margin: 0 auto;
+    margin-top:10px;
+    width:375px;
+    height: 600px;
+    background-color: #FFFFFF;
+    border: 1px solid #E4E3E1;
+}
+.side ul{
+    list-style-type: none;
+}
+.bo{
+    display: flex;
+}
+.last td, .last th {
+    font-size: 1em;
+    padding: 3px 7px 2px 7px;
+}
+.last th {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.last td {
+    color: #000000;
+}
+.last table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.last table tfoot td{
+    background-color: #CCCCCC;
+}
+.ex{
+    font-size: 13px;
+    color: #BFBFBF;
+    text-align: center;
+}
+.side ul{
+    display: table;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub{
+    color: #555;
+        display: inline-block;
+        margin-left: 60px;
+        height: 45px;
+        border-radius: 10px;
+        width: 250px;
+        line-height: 40px;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+        transition: all .3s;
+        margin-top: 20px;
+        border: 1px solid #0381aa;
+        color: #fff;
+        background-color: #3355D1;
+}
+
+
